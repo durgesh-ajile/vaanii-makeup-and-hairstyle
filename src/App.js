@@ -299,7 +299,7 @@ export default function VaaniiPortfolio() {
           <div className={`fade-up ${isVisible("about") ? "visible" : ""}`}>
             <div style={{ position: "relative" }}>
               <div style={{ width: "100%", aspectRatio: "4/5", position: "relative", overflow: "visible" }}>
-                <img src="./Certification.jpeg" alt="Makeup gallery image" style={{ width: "100%", height: "auto" }} />
+                <img src="./Certification.jpeg" alt="Makeup gallery" style={{ width: "100%", height: "auto" }} />
                 <div style={{ position: "absolute", bottom: "-20px", right: "-20px", width: "120px", height: "120px", border: "1px solid rgba(201,168,76,0.3)" }} />
                 <div style={{ position: "absolute", top: "-20px", left: "-20px", width: "80px", height: "80px", background: "rgba(201,168,76,0.04)", border: "1px solid rgba(201,168,76,0.2)" }} />
                 <div style={{ position: "absolute", bottom: "16px", left: "16px", background: "rgba(10,8,6,0.7)", backdropFilter: "blur(8px)", border: "1px solid rgba(201,168,76,0.25)", padding: "10px 14px", display: "flex", alignItems: "center", gap: "10px" }}>
