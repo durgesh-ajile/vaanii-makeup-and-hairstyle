@@ -135,19 +135,6 @@ const GALLERY_ITEMS = [
   { src: "./mehendi5.jpeg", label: "Mehendi look", tag: "Mehendi" },
 ];
 
-
-const GALLERY_COLORS = [
-  "linear-gradient(135deg, #2c1a1a 0%, #5c2a2a 100%)",
-  "linear-gradient(135deg, #1a1a2c 0%, #2a2a5c 100%)",
-  "linear-gradient(135deg, #1a2c1a 0%, #2a5c3a 100%)",
-  "linear-gradient(135deg, #2c2218 0%, #5c4a2a 100%)",
-  "linear-gradient(135deg, #2c1a2c 0%, #5c2a5c 100%)",
-  "linear-gradient(135deg, #1a2828 0%, #2a5050 100%)",
-  "linear-gradient(135deg, #28201a 0%, #5c3a2a 100%)",
-  "linear-gradient(135deg, #201a28 0%, #3a2a5c 100%)",
-  "linear-gradient(135deg, #1a2828 0%, #2a4050 100%)",
-];
-
 export default function VaaniiPortfolio() {
   const [activeNav, setActiveNav] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -312,7 +299,7 @@ export default function VaaniiPortfolio() {
           <div className={`fade-up ${isVisible("about") ? "visible" : ""}`}>
             <div style={{ position: "relative" }}>
               <div style={{ width: "100%", aspectRatio: "4/5", position: "relative", overflow: "visible" }}>
-                <img src="./Certification.jpeg" style={{ width: "100%", height: "auto" }} />
+                <img src="./Certification.jpeg" alt="Makeup gallery image" style={{ width: "100%", height: "auto" }} />
                 <div style={{ position: "absolute", bottom: "-20px", right: "-20px", width: "120px", height: "120px", border: "1px solid rgba(201,168,76,0.3)" }} />
                 <div style={{ position: "absolute", top: "-20px", left: "-20px", width: "80px", height: "80px", background: "rgba(201,168,76,0.04)", border: "1px solid rgba(201,168,76,0.2)" }} />
                 <div style={{ position: "absolute", bottom: "16px", left: "16px", background: "rgba(10,8,6,0.7)", backdropFilter: "blur(8px)", border: "1px solid rgba(201,168,76,0.25)", padding: "10px 14px", display: "flex", alignItems: "center", gap: "10px" }}>
