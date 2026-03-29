@@ -267,9 +267,9 @@ export default function VaaniiPortfolio() {
             Enhancing<br />
             <em style={{ fontStyle: "italic", color: "#c9a84c" }}>Beauty</em>
           </h1>
-          <h1 style={{ fontSize: "clamp(52px, 8vw, 100px)", fontWeight: 300, lineHeight: 1.0, letterSpacing: "-1px", marginBottom: "32px" }}>
+          <h2 style={{ fontSize: "clamp(52px, 8vw, 100px)", fontWeight: 300, lineHeight: 1.0, letterSpacing: "-1px", marginBottom: "32px" }}>
             with Elegance <em style={{ fontStyle: "italic" }}>& Perfection</em>
-          </h1>
+          </h2>
           <p style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300, fontSize: "clamp(13px, 1.5vw, 16px)", lineHeight: 1.9, color: "rgba(245,237,224,0.7)", maxWidth: "500px", marginBottom: "48px", letterSpacing: "0.5px" }}>
             Freelance bridal makeup & hairstyling by <span style={{ color: "#c9a84c" }}>Shivanii Rajak</span> — transforming brides and creating unforgettable looks across India.
           </p>
@@ -299,7 +299,7 @@ export default function VaaniiPortfolio() {
           <div className={`fade-up ${isVisible("about") ? "visible" : ""}`}>
             <div style={{ position: "relative" }}>
               <div style={{ width: "100%", aspectRatio: "4/5", position: "relative", overflow: "visible" }}>
-                <img src="./Certification.jpeg" alt="Makeup gallery" style={{ width: "100%", height: "auto" }} />
+                <img src="./Certification.jpeg" alt="Shivanii Rajak makeup artist certification" style={{ width: "100%", height: "auto" }} />
                 <div style={{ position: "absolute", bottom: "-20px", right: "-20px", width: "120px", height: "120px", border: "1px solid rgba(201,168,76,0.3)" }} />
                 <div style={{ position: "absolute", top: "-20px", left: "-20px", width: "80px", height: "80px", background: "rgba(201,168,76,0.04)", border: "1px solid rgba(201,168,76,0.2)" }} />
                 <div style={{ position: "absolute", bottom: "16px", left: "16px", background: "rgba(10,8,6,0.7)", backdropFilter: "blur(8px)", border: "1px solid rgba(201,168,76,0.25)", padding: "10px 14px", display: "flex", alignItems: "center", gap: "10px" }}>

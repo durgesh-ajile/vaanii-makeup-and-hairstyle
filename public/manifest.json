@@ -1,0 +1,16 @@
+{
+  "short_name": "Vaanii Makeup",
+  "name": "Vaanii Makeup and Hairstyle",
+  "description": "Professional bridal makeup artist and hairstylist in Jabalpur by Shivanii Rajak",
+  "icons": [
+    {
+      "src": "vani.jpeg",
+      "sizes": "any",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0a0806",
+  "background_color": "#0a0806"
+}
