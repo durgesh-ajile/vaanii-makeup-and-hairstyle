@@ -93,6 +93,9 @@ const GALLERY_ITEMS = [
   { src: "./bride10.jpeg", label: "Bridal Look", tag: "Bridal" },
   { src: "./bride11.jpeg", label: "Bridal Glow", tag: "Bridal" },
   { src: "./bride12.jpeg", label: "Bridal Look", tag: "Bridal" },
+  { src: "./bride13.jpeg", label: "Bridal Look", tag: "Bridal" },
+  { src: "./bride14.jpeg", label: "Bridal Glow", tag: "Bridal" },
+  { src: "./bride15.jpeg", label: "Bridal Look", tag: "Bridal" },
 
   { src: "./eng1.jpeg", label: "Engagement Makeup", tag: "Engagement" },
   { src: "./eng2.jpeg", label: "Engagement Look", tag: "Engagement" },
@@ -101,6 +104,14 @@ const GALLERY_ITEMS = [
   { src: "./eng5.jpeg", label: "Engagement Makeup", tag: "Engagement" },
   { src: "./eng6.jpeg", label: "Engagement Look", tag: "Engagement" },
   { src: "./eng7.jpeg", label: "Engagement Makeup", tag: "Engagement" },
+  { src: "./eng8.jpeg", label: "Engagement Look", tag: "Engagement" },
+  { src: "./eng9.jpeg", label: "Engagement Makeup", tag: "Engagement" },
+  { src: "./eng10.jpeg", label: "Engagement Look", tag: "Engagement" },
+  { src: "./eng11.jpeg", label: "Engagement Makeup", tag: "Engagement" },
+  { src: "./eng12.jpeg", label: "Engagement Look", tag: "Engagement" },
+  { src: "./eng13.jpeg", label: "Engagement Makeup", tag: "Engagement" },
+  { src: "./eng14.jpeg", label: "Engagement Look", tag: "Engagement" },
+  { src: "./eng15.jpeg", label: "Engagement Makeup", tag: "Engagement" },
 
   { src: "./sider1.jpeg", label: "Party Makeup Jabalpur", tag: "Party" },
   { src: "./sider2.jpeg", label: "Party Makeup Jabalpur", tag: "Party" },
@@ -120,6 +131,9 @@ const GALLERY_ITEMS = [
   { src: "./sider16.jpeg", label: "Party Makeup", tag: "Party" },
   { src: "./sider18.jpeg", label: "Shivani special", tag: "Party" },
   { src: "./sider19.jpeg", label: "Reception Look", tag: "Party" },
+  { src: "./sider20.jpeg", label: "Party Makeup", tag: "Party" },
+  { src: "./sider21.jpeg", label: "Shivani special", tag: "Party" },
+  { src: "./sider22.jpeg", label: "Reception Look", tag: "Party" },
 
   { src: "./pre1.jpeg", label: "Pre-Wedding shoot", tag: "Shoots" },
   { src: "./pre2.jpeg", label: "Pre-Wedding shoot", tag: "Shoots" },
@@ -279,7 +293,7 @@ export default function VaaniiPortfolio() {
             Freelance bridal makeup & hairstyling by <span style={{ color: "#c9a84c" }}>Shivanii Rajak</span> — transforming brides and creating unforgettable looks across India.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <button className="btn-gold" onClick={() => window.open("https://wa.me/919201636230?text=Hi%20Vaanii%2C%20I'd%20like%20to%20book%20makeup%20%26%20hairstyling%20for%20my%20event!", "_blank")}>Book on WhatsApp</button>
+            <button className="btn-gold" onClick={() => window.open("https://wa.me/917067973345?text=Hi%20Vaanii%2C%20I'd%20like%20to%20book%20makeup%20%26%20hairstyling%20for%20my%20event!", "_blank")}>Book on WhatsApp</button>
             <button className="btn-outline" onClick={() => scrollTo("Gallery")}>View Portfolio</button>
           </div>
           <div style={{ marginTop: "64px", display: "flex", gap: "48px" }}>
@@ -502,8 +516,8 @@ export default function VaaniiPortfolio() {
           </div>
           <div className={`fade-up d2 ${isVisible("contact") ? "visible" : ""}`} style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "1px", background: "rgba(201,168,76,0.1)", marginBottom: "56px" }}>
             {[
-              { icon: "📱", label: "WhatsApp", val: "+91 92016 36230", action: () => window.open("https://wa.me/919201636230?text=Hi%20Vaanii%2C%20I'd%20like%20to%20book%20makeup%20%26%20hairstyling!", "_blank") },
-              { icon: "📞", label: "Phone", val: "+91 92016 36230", action: () => window.open("tel:+919201636230") },
+              { icon: "📱", label: "WhatsApp", val: "+91 70679 73345", action: () => window.open("https://wa.me/917067973345?text=Hi%20Vaanii%2C%20I'd%20like%20to%20book%20makeup%20%26%20hairstyling!", "_blank") },
+              { icon: "📞", label: "Phone", val: "+91 70679 73345", action: () => window.open("tel:+917067973345") },
               { icon: "📍", label: "Based In", val: "Jabalpur, MP", action: null },
               { icon: "✈️", label: "Travel", val: "Across India", action: null },
             ].map(c => (
